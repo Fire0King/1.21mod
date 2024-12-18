@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "firekingmod:ice_ether"
+    },
+    {
+      "item": "minecraft:stone"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "firekingmod:ice_ether_ore"
+  }
+}

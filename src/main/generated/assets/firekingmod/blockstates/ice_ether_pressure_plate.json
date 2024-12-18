@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "firekingmod:block/ice_ether_pressure_plate"
+    },
+    "powered=true": {
+      "model": "firekingmod:block/ice_ether_pressure_plate_down"
+    }
+  }
+}

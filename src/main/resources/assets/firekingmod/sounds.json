@@ -1,0 +1,54 @@
+{
+  "prospector_found_ore": {
+    "subtitle": "sounds.firekingmod.prospector_found_ore",
+    "sounds": [
+      "firekingmod:prospector_found_ore"
+    ]
+  },
+  "onii_call": {
+    "subtitle": "sounds.firekingmod.onii_call",
+    "sounds": [
+      "firekingmod:onii_call"
+    ]
+  },
+  "block_break": {
+    "subtitle": "sounds.firekingmod.block_break",
+    "sounds": [
+      "firekingmod:block_break"
+    ]
+  },
+  "block_step": {
+    "subtitle": "sounds.firekingmod.block_step",
+    "sounds": [
+      "firekingmod:block_step"
+    ]
+  },
+  "block_place": {
+    "subtitle": "sounds.firekingmod.block_place",
+    "sounds": [
+      "firekingmod:block_place"
+    ]
+  },
+  "block_hit": {
+    "subtitle": "sounds.firekingmod.block_hit",
+    "sounds": [
+      "firekingmod:block_hit"
+    ]
+  },
+  "block_fall": {
+    "subtitle": "sounds.firekingmod.block_fall",
+    "sounds": [
+      "firekingmod:block_fall"
+    ]
+  },
+  "music_disc.test": {
+    "sounds": [
+      "firekingmod:test"
+    ]
+  },
+  "music_disc.senrenbanka": {
+    "sounds": [
+      "firekingmod:senrenbanka"
+    ]
+  }
+}

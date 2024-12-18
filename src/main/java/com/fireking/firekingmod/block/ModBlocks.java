@@ -1,0 +1,60 @@
+package com.fireking.firekingmod.block;
+
+import com.fireking.firekingmod.FireKingMod;
+import com.fireking.firekingmod.block.custom.CornCropBlock;
+import com.fireking.firekingmod.block.custom.StrawberryCropBlock;
+import com.fireking.firekingmod.sound.ModSoundEvents;
+import net.minecraft.block.*;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
+import net.minecraft.util.Identifier;
+
+public class ModBlocks {
+    //方块
+    public static final Block ICE_ETHER_BLOCK = register("ice_ether_block", new Block(AbstractBlock.Settings.create()
+            .requiresTool().strength(3.0f, 3.0f).sounds(ModSoundEvents.BLOCK_SOUND_GROUP)));
+    public static final Block ICE_ETHER_ORE = register("ice_ether_ore", new Block(AbstractBlock.Settings.create().requiresTool().strength(4.5f, 6.0f)));
+
+    //建筑方块（楼梯，台阶类）
+    public static final Block ICE_ETHER_STAIRS = register("ice_ether_stairs",//楼梯
+            new StairsBlock(ICE_ETHER_BLOCK.getDefaultState(), AbstractBlock.Settings.copy(ICE_ETHER_BLOCK)));
+    public static final Block ICE_ETHER_SLAB = register("ice_ether_slab",//台阶（半砖）
+            new SlabBlock(AbstractBlock.Settings.copy(ICE_ETHER_BLOCK)));
+    public static final Block ICE_ETHER_BUTTON = register("ice_ether_button",//按钮
+            new ButtonBlock(BlockSetType.OAK, 10, AbstractBlock.Settings.copy(ICE_ETHER_BLOCK)));
+    public static final Block ICE_ETHER_PRESSURE_PLATE = register("ice_ether_pressure_plate",//压力板
+            new PressurePlateBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(ICE_ETHER_BLOCK)));
+    public static final Block ICE_ETHER_FENCE = register("ice_ether_fence",//栅栏
+            new FenceBlock(AbstractBlock.Settings.copy(ICE_ETHER_BLOCK)));
+    public static final Block ICE_ETHER_FENCE_GATE = register("ice_ether_fence_gate",//栅栏门
+            new FenceGateBlock(WoodType.OAK, AbstractBlock.Settings.copy(ICE_ETHER_BLOCK)));
+    public static final Block ICE_ETHER_WALL = register("ice_ether_wall",//墙
+            new WallBlock(AbstractBlock.Settings.copy(ICE_ETHER_BLOCK)));
+    public static final Block ICE_ETHER_DOOR = register("ice_ether_door",//门
+            new DoorBlock(BlockSetType.STONE, AbstractBlock.Settings.copy(ICE_ETHER_BLOCK).nonOpaque()));
+    public static final Block ICE_ETHER_TRAPDOOR = register("ice_ether_trapdoor",//活板门
+            new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.copy(ICE_ETHER_BLOCK).nonOpaque()));
+
+    public static final Block STRAWBERRY_CROP = Registry.register(Registries.BLOCK, Identifier.of(FireKingMod.MOD_ID, "strawberry_crop"),
+            new StrawberryCropBlock(AbstractBlock.Settings.copy(Blocks.WHEAT)));
+    public static final Block CORN_CROP = Registry.register(Registries.BLOCK, Identifier.of(FireKingMod.MOD_ID, "corn_crop"),
+            new CornCropBlock(AbstractBlock.Settings.copy(Blocks.WHEAT)));
+    //注册方块物品的方法
+    public static void registerBlockItems(String id, Block block) {
+        Item item = Registry.register(Registries.ITEM, Identifier.of(FireKingMod.MOD_ID, id), new BlockItem(block, new Item.Settings()));
+        //将此方块加入block_items里。原版就是这么写的，不知道具体什么作用（位于Items类）
+        if (item instanceof BlockItem) {
+            ((BlockItem)item).appendBlocks(Item.BLOCK_ITEMS, item);
+        }
+    }
+    //注册方块和方块物品
+    public static Block register(String id, Block block) {
+        registerBlockItems(id, block);
+        return Registry.register(Registries.BLOCK, Identifier.of(FireKingMod.MOD_ID, id), block);
+    }
+    public static void registerModBlocks(){
+        FireKingMod.LOGGER.info("Registering Blocks");
+    }
+}

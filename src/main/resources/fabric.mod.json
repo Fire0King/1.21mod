@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "firekingmod",
+	"version": "${version}",
+	"name": "FireKingMod",
+	"description": "一个再一次启程探索自制模组的模组",
+	"authors": [
+		"Fire_King114514"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/firekingmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.fireking.firekingmod.FireKingMod"
+		],
+		"fabric-datagen": [
+			"com.fireking.firekingmod.FireKingModDataGenerator"
+		],
+		"client": [
+			"com.fireking.firekingmod.FireKingModClient"
+		]
+	},
+	"mixins": [
+		"firekingmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "jukebox_song.firekingmod.test"
+  },
+  "length_in_seconds": 210.0,
+  "sound_event": "firekingmod:music_disc.test"
+}
