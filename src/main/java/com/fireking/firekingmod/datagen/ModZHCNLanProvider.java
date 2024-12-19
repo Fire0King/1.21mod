@@ -21,6 +21,8 @@ public class ModZHCNLanProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.ONII_ITEM, "绫地宁宁起爆器");
         translationBuilder.add(ModItems.Prospector, "探矿器");
 
+        translationBuilder.add(ModItems.OIL_BUCKET, "石油桶");
+
         translationBuilder.add(ModItems.STRAWBERRY, "草莓");
         translationBuilder.add(ModItems.CHEESE, "奶酪");
         translationBuilder.add(ModItems.SUPER_CHEESE, "神奇奶酪");

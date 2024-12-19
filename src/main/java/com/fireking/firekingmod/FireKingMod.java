@@ -1,6 +1,7 @@
 package com.fireking.firekingmod;
 
 import com.fireking.firekingmod.block.ModBlocks;
+import com.fireking.firekingmod.block.ModFluids;
 import com.fireking.firekingmod.item.ModItemGroups;
 import com.fireking.firekingmod.item.ModItems;
 import com.fireking.firekingmod.mixin.GrassColorsMixin;
@@ -46,6 +47,8 @@ public class FireKingMod implements ModInitializer {
 		ModVillagers.registerModVillagers();
 		//注册声音
 		ModSoundEvents.registerModSoundEvents();
+		//注册流体
+		ModFluids.registerModFluids();
 
 		LOGGER.info("Hello Fabric world!");
 	}

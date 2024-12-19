@@ -36,6 +36,7 @@ public class ModModelsProvider extends FabricModelProvider {
                                                 )
                                 )
                 );
+        blockStateModelGenerator.registerSimpleState(ModBlocks.OIL);
     }
     //物品
     @Override
@@ -44,6 +45,9 @@ public class ModModelsProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.FIRE_ETHER, Models.GENERATED);
         itemModelGenerator.register(ModItems.ONII_ITEM, Models.GENERATED);
         itemModelGenerator.register(ModItems.Prospector, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.OIL_BUCKET, Models.GENERATED);
+
         itemModelGenerator.register(ModItems.STRAWBERRY, Models.GENERATED);
         itemModelGenerator.register(ModItems.CHEESE, Models.GENERATED);
         itemModelGenerator.register(ModItems.SUPER_CHEESE, Models.GENERATED);

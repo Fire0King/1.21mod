@@ -2,6 +2,7 @@ package com.fireking.firekingmod.item;
 
 import com.fireking.firekingmod.FireKingMod;
 import com.fireking.firekingmod.block.ModBlocks;
+import com.fireking.firekingmod.block.ModFluids;
 import com.fireking.firekingmod.item.custom.HatItem;
 import com.fireking.firekingmod.item.custom.ModArmorItem;
 import com.fireking.firekingmod.item.custom.ONIIItem;
@@ -18,17 +19,25 @@ import net.minecraft.util.Rarity;
 
 public class ModItems {
     //创建物品
+    //材料
     public static final Item ICE_ETHER = registerItems("ice_ether", new Item(new Item.Settings()));
     public static final Item FIRE_ETHER = registerItems("fire_ether", new Item(new Item.Settings()));
 
+    //custom
     public static final Item ONII_ITEM = registerItems("onii_item", new ONIIItem(new Item.Settings().maxCount(1), InstrumentTags.GOAT_HORNS));
     public static final Item Prospector = registerItems("prospector", new Prospector(new Item.Settings().maxDamage(127).maxCount(1)));
 
+    //流体桶
+    public static final Item OIL_BUCKET = registerItems("oil_bucket",
+            new BucketItem(ModFluids.OIL, new Item.Settings().recipeRemainder(Items.BUCKET).maxCount(1)));
+
+    //食物
     public static final Item STRAWBERRY = registerItems("strawberry", new Item(new Item.Settings().food(ModFoodComponents.STRAWBERRY)));
     public static final Item CHEESE = registerItems("cheese", new Item(new Item.Settings().food(ModFoodComponents.CHEESE)));
     public static final Item SUPER_CHEESE = registerItems("super_cheese", new Item(new Item.Settings().food(ModFoodComponents.SUPER_CHEESE)));
     public static final Item CORN = registerItems("corn", new Item(new Item.Settings().food(ModFoodComponents.CORN)));
 
+    //种子
     public static final Item STRAWBERRY_SEEDS = registerItems("strawberry_seeds",
             new AliasedBlockItem(ModBlocks.STRAWBERRY_CROP, new Item.Settings()));
     public static final Item CORN_SEEDS = registerItems("corn_seeds",

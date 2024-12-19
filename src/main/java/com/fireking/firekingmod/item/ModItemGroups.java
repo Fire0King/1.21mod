@@ -38,6 +38,8 @@ public class ModItemGroups {
                     entries.add(ModItems.ONII_ITEM);
                     entries.add(ModItems.Prospector);
 
+                    entries.add(ModItems.OIL_BUCKET);
+
                     entries.add(ModItems.STRAWBERRY);
                     entries.add(ModItems.CHEESE);
                     entries.add(ModItems.SUPER_CHEESE);

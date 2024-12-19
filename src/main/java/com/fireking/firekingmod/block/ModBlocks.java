@@ -17,6 +17,10 @@ public class ModBlocks {
             .requiresTool().strength(3.0f, 3.0f).sounds(ModSoundEvents.BLOCK_SOUND_GROUP)));
     public static final Block ICE_ETHER_ORE = register("ice_ether_ore", new Block(AbstractBlock.Settings.create().requiresTool().strength(4.5f, 6.0f)));
 
+    //流体方块
+    public static final Block OIL = Registry.register(Registries.BLOCK, Identifier.of(FireKingMod.MOD_ID, "oil"),
+            new FluidBlock(ModFluids.OIL, AbstractBlock.Settings.copy(Blocks.WATER)));
+
     //建筑方块（楼梯，台阶类）
     public static final Block ICE_ETHER_STAIRS = register("ice_ether_stairs",//楼梯
             new StairsBlock(ICE_ETHER_BLOCK.getDefaultState(), AbstractBlock.Settings.copy(ICE_ETHER_BLOCK)));
