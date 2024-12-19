@@ -1,4 +1,4 @@
-// 1.21	2024-10-13T16:46:11.2972132	FireKingMod/Model Definitions
+// 1.21	2024-12-18T18:13:02.1053793	FireKingMod/Model Definitions
 5c4f5e40b4a1484c128b18321e8bf42e79c0e073 assets\firekingmod\blockstates\ice_ether_slab.json
 cb6da15bb2066c2844f8abfc3a59469622fd497a assets\firekingmod\models\item\ice_ether_pressure_plate.json
 2db89258ee4e6c73b2d51a480ee73cc817b39263 assets\firekingmod\blockstates\ice_ether_fence.json
@@ -90,8 +90,8 @@ d5d22321893fe6939cd5418773370d044bcd7fa6 assets\firekingmod\models\block\strawbe
 52a770f94d3a6acf225883d3f2ac47e5273d38fc assets\firekingmod\models\item\ice_ether_door.json
 9fe4c98e6ef0161dafa4506b211e854acdd27712 assets\firekingmod\models\item\fire_ether_chestplate.json
 18da8c15f1bb0e27b4097b53d0ba909cc76ad67c assets\firekingmod\models\block\ice_ether_stairs.json
-fa75d51ed0c35864d3a0b18b94747e1d930fd8e1 assets\firekingmod\models\item\fire_ether_leggings_netherite_trim.json
 d34cf6810cd19892e05fb5d7db7872e5622a257a assets\firekingmod\models\block\ice_ether_door_bottom_left_open.json
+fa75d51ed0c35864d3a0b18b94747e1d930fd8e1 assets\firekingmod\models\item\fire_ether_leggings_netherite_trim.json
 ec1367122a900983711b96b9a2783fd1262713ca assets\firekingmod\models\block\strawberry_crop_stage3.json
 7106856053cfe735bd8dda2d5035bc0b5780848e assets\firekingmod\models\item\super_cheese.json
 65177d20cee4c92f319cb03e7ef1e1e9c239b762 assets\firekingmod\models\item\prospector.json
@@ -107,8 +107,8 @@ b579c24800773bbf9db0193a1ff961781833881a assets\firekingmod\models\item\fire_eth
 08797638bbd29066e11bc91dacc62c270c08cece assets\firekingmod\models\block\corn_crop_stage5.json
 c1ecbb37127448aa73881163536f0b4379a4f590 assets\firekingmod\models\block\corn_crop_stage0.json
 e780e7bb6b96d04f1982698125d95cf79f4bb14e assets\firekingmod\models\item\ice_ether_fence.json
-76d7680b63a898a56fcd9c6ff823d23b82ad54f0 assets\firekingmod\models\item\fire_ether_boots.json
 5b0f3f579faeb1850e507ee46e0a9801c2ae8b8d assets\firekingmod\models\item\ice_ether_button.json
+76d7680b63a898a56fcd9c6ff823d23b82ad54f0 assets\firekingmod\models\item\fire_ether_boots.json
 54088ac97c06d3ebba488ee2231a47e24c86be6e assets\firekingmod\models\item\fire_ether_shovel.json
 b0f437f3a604cfa27c8525206c20790656dc29f4 assets\firekingmod\models\block\ice_ether_fence_gate.json
 051b89be31a216115ac011f09b0b94a85887e8b7 assets\firekingmod\models\block\ice_ether_pressure_plate_down.json
