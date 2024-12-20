@@ -72,6 +72,10 @@ public class ModItems {
             new Item.Settings().fireproof().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(37))));
     public static final Item HAT = registerItems("hat", new HatItem(HatItem.Type.HAT, new Item.Settings().maxDamage(HatItem.Type.HAT.getMaxDamage(5))));
 
+    //马铠
+    public static final Item FIRE_ETHER_HORSE_ARMOR = registerItems("fire_ether_horse_armor",
+            new AnimalArmorItem(ModArmorMaterials.FIRE_ETHER, AnimalArmorItem.Type.EQUESTRIAN, false, new Item.Settings().maxCount(1)));
+
     //注册物品
     private static Item registerItems(String id, Item item) {
         //非注释行为更简洁的写法（Ctrl+左键点方法可以查看源码）

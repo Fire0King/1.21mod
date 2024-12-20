@@ -65,6 +65,8 @@ public class ModModelsProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor((ArmorItem) ModItems.FIRE_ETHER_LEGGINGS);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.FIRE_ETHER_BOOTS);
 
+        itemModelGenerator.register(ModItems.FIRE_ETHER_HORSE_ARMOR, Models.GENERATED);
+
         itemModelGenerator.register(ModItems.TEST_MUSIC_DISC, Models.TEMPLATE_MUSIC_DISC);
         itemModelGenerator.register(ModItems.SENRENBANKA_MUSIC_DISC, Models.TEMPLATE_MUSIC_DISC);
     }

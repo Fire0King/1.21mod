@@ -45,6 +45,8 @@ public class ModZHCNLanProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.FIRE_ETHER_LEGGINGS, "火以太护腿");
         translationBuilder.add(ModItems.FIRE_ETHER_BOOTS, "火以太靴");
 
+        translationBuilder.add(ModItems.FIRE_ETHER_HORSE_ARMOR, "火以太马铠");
+
         translationBuilder.add(ModItems.HAT, "帽子");
         //方块
         translationBuilder.add(ModBlocks.ICE_ETHER_BLOCK, "冰以太块");
