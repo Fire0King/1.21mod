@@ -1,9 +1,9 @@
-// 1.21	2024-12-20T16:01:52.1167779	FireKingMod/Tags for minecraft:block
-324186d5de2877224d7d3127255fa63ee88b8d01 data\minecraft\tags\block\fence_gates.json
+// 1.21	2025-09-06T16:52:45.2993433	FireKingMod/Tags for minecraft:block
 b246864c8e727d077f4cce83ac9e6ba15331ee03 data\minecraft\tags\block\buttons.json
-342254eac756087ba55c0d1bc0ad26a15dd64bf4 data\firekingmod\tags\block\ore_list.json
-963b4ca51648536f2795d90741c9df123a697931 data\minecraft\tags\block\needs_iron_tool.json
-158f8641ea0c362b04840e6861fcaf810836dc3e data\minecraft\tags\block\walls.json
-c2750bbdc8c644063fc6da3f16393cfd147857a0 data\minecraft\tags\block\mineable\pickaxe.json
 963b4ca51648536f2795d90741c9df123a697931 data\minecraft\tags\block\needs_stone_tool.json
 324186d5de2877224d7d3127255fa63ee88b8d01 data\minecraft\tags\block\fences.json
+324186d5de2877224d7d3127255fa63ee88b8d01 data\minecraft\tags\block\fence_gates.json
+c2750bbdc8c644063fc6da3f16393cfd147857a0 data\minecraft\tags\block\mineable\pickaxe.json
+342254eac756087ba55c0d1bc0ad26a15dd64bf4 data\firekingmod\tags\block\ore_list.json
+158f8641ea0c362b04840e6861fcaf810836dc3e data\minecraft\tags\block\walls.json
+963b4ca51648536f2795d90741c9df123a697931 data\minecraft\tags\block\needs_iron_tool.json

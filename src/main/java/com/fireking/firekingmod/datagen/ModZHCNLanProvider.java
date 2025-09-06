@@ -61,6 +61,8 @@ public class ModZHCNLanProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.ICE_ETHER_TRAPDOOR, "冰以太活板门");
         translationBuilder.add(ModBlocks.ICE_ETHER_WALL, "冰以太墙");
 
+        translationBuilder.add(ModBlocks.BOX, "优箱");
+
         //创造物品栏
         translationBuilder.add("itemGroup.firekingmod_group", "Fire_King的模组");
         //物品工具描述
@@ -84,5 +86,8 @@ public class ModZHCNLanProvider extends FabricLanguageProvider {
         //唱片播放时下方彩色字幕
         translationBuilder.add("jukebox_song.firekingmod.test", "Test(影色舞)");
         translationBuilder.add("jukebox_song.firekingmod.senrenbanka", "以恋结缘");
+
+        //gui上方名称
+        translationBuilder.add("container.box", "优箱");
     }
 }

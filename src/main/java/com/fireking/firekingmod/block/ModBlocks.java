@@ -1,8 +1,10 @@
 package com.fireking.firekingmod.block;
 
 import com.fireking.firekingmod.FireKingMod;
+import com.fireking.firekingmod.block.custom.BoxBlock;
 import com.fireking.firekingmod.block.custom.CornCropBlock;
 import com.fireking.firekingmod.block.custom.StrawberryCropBlock;
+import com.fireking.firekingmod.block.entity.ModBlockEntities;
 import com.fireking.firekingmod.sound.ModSoundEvents;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
@@ -45,6 +47,11 @@ public class ModBlocks {
             new StrawberryCropBlock(AbstractBlock.Settings.copy(Blocks.WHEAT)));
     public static final Block CORN_CROP = Registry.register(Registries.BLOCK, Identifier.of(FireKingMod.MOD_ID, "corn_crop"),
             new CornCropBlock(AbstractBlock.Settings.copy(Blocks.WHEAT)));
+
+    //实体方块
+    public static final Block BOX = register("box", new BoxBlock(AbstractBlock.Settings.copy(Blocks.CHEST).nonOpaque(), () -> ModBlockEntities.Box));
+
+
     //注册方块物品的方法
     public static void registerBlockItems(String id, Block block) {
         Item item = Registry.register(Registries.ITEM, Identifier.of(FireKingMod.MOD_ID, id), new BlockItem(block, new Item.Settings()));

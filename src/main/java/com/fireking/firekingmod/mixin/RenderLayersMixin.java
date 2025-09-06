@@ -24,5 +24,6 @@ public class RenderLayersMixin {
         BLOCKS.put(ModBlocks.ICE_ETHER_TRAPDOOR, RenderLayer.getCutout());
         BLOCKS.put(ModBlocks.STRAWBERRY_CROP, RenderLayer.getCutout());
         BLOCKS.put(ModBlocks.CORN_CROP, RenderLayer.getCutout());
+        BLOCKS.put(ModBlocks.BOX, RenderLayer.getCutout());
     }
 }

@@ -1,5 +1,6 @@
 {
   "114514.firekingmod.0d00": "0721",
+  "block.firekingmod.box": "优箱",
   "block.firekingmod.ice_ether_block": "冰以太块",
   "block.firekingmod.ice_ether_button": "冰以太按钮",
   "block.firekingmod.ice_ether_door": "冰以太门",
@@ -11,6 +12,7 @@
   "block.firekingmod.ice_ether_stairs": "冰以太楼梯",
   "block.firekingmod.ice_ether_trapdoor": "冰以太活板门",
   "block.firekingmod.ice_ether_wall": "冰以太墙",
+  "container.box": "优箱",
   "entity.minecraft.villager.ice_ether_master": "冰以太大师",
   "item.firekingmod.cheese": "奶酪",
   "item.firekingmod.corn": "玉米",

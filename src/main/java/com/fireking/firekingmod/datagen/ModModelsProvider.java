@@ -36,7 +36,9 @@ public class ModModelsProvider extends FabricModelProvider {
                                                 )
                                 )
                 );
+        //SimpleState会只生成方块状态文件，不生成附带的模型文件
         blockStateModelGenerator.registerSimpleState(ModBlocks.OIL);
+        blockStateModelGenerator.registerSimpleState(ModBlocks.BOX);
     }
     //物品
     @Override
